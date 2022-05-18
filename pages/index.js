@@ -1,27 +1,27 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Main.module.css";
+import Header from '../src/components/Header'
+import Slider from '../src/components/Slider'
+import WelcomeContainer from '../src/components/WelcomeContainer/index'
+import OurServicesContainer from '../src/components/OurServicesContainer/index'
+import OurPortfolioContainer from '../src/components/OurPortfolioContainer/index'
+import ContactUsContainer from '../src/components/ContactUsContainer.jsx'
+import Footer from '../src/components/Footer'
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<>
 			<Head>
 				<title>LandingPage</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-
-			<main className={styles.main}>
-				<h1 className={styles.title}>
-					Welcome to <a href="https://nextjs.org">
-						Next.js!</a> integrated with{" "}
-					<a href="https://mui.com/">Material-UI!</a>
-				</h1>
-				<p className={styles.description}>
-					Get started by editing{" "}
-					<code className={styles.code}>
-						pages/index.js</code>
-				</p>
-
-			</main>
-		</div>
+			<Header />
+			<Slider />
+			<WelcomeContainer />
+			<OurServicesContainer />
+			<OurPortfolioContainer />
+			<ContactUsContainer />
+			<Footer />
+		</>
 	);
 }

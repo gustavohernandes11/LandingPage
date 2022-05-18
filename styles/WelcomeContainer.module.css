@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0px;
+}
+.textcontainer {
+    margin: 0px 60px;
+    text-align:justify;
+    display: flex;
+    flex-direction: row;
+}
+.textcontainer p{
+    margin: 20px;
+    width: 50%;
+}
+.container button {
+    color: rgb(42, 42, 110);
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600 ;
+    border: 2px solid rgb(38, 38, 126);
+}
+.container button:hover {
+    cursor: pointer
+}
+
+
+.cardarea {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2rem;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 340px;
+    flex-grow: 1;
+    background-color: rgb(54, 54, 133);
+    color: white;
+}
+
+.card h2 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.card p {
+    text-align: center;
+}

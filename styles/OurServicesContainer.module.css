@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0px;
+}
+
+.servicecontainer {
+    display: flex;
+    width: 100%;
+    margin: 0px 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.servicecard {
+    flex-basis: 32%;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    margin: 5px;
+    padding: 5px 15px;
+    color: rgb(58, 58, 119);
+}
+
+.servicecard p {
+    font-weight: 700;
+}
+
+.ratingcontainer {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(47, 47, 116);
+    padding: 5rem 0px;
+
+}
+
+.ratingcard {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ratingcard h2 {
+    font-size: 3rem;
+    margin: 0px;
+}
