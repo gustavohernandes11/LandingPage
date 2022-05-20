@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Main.module.css";
 import Header from '../src/components/Header'
-import Slider from '../src/components/Slider'
+import SliderContainer from '../src/components/SliderContainer/index'
 import WelcomeContainer from '../src/components/WelcomeContainer/index'
 import OurServicesContainer from '../src/components/OurServicesContainer/index'
 import OurPortfolioContainer from '../src/components/OurPortfolioContainer/index'
@@ -16,7 +16,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header />
-			<Slider />
+			<SliderContainer />
 			<WelcomeContainer />
 			<OurServicesContainer />
 			<OurPortfolioContainer />

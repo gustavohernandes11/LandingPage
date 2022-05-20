@@ -30,10 +30,7 @@
   align-items: center;
 }
 
-.slidercontainer {
-  min-height: 100vh;
-  background-color: rgb(168, 192, 214);
-}
+
 
 .footer {
   display: flex;

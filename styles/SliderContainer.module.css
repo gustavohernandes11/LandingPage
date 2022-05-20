@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slidercontainer {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+    background-color: rgb(69, 97, 148);
+  }
+  .slidercontainer button {
+    background-color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    color: rgb(40, 40, 146);
+    padding: 15px 25px;
+    font-weight:600;
+    font-size: 1rem;
+}
+.slidercontainer button:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 10px 6px rgba(0, 0, 0, 0.137);
+
+    transition: ease-in 0.5s;
+}
+  .slidercontainer h1 {
+      font-size: 4rem;
+      
+  }
