@@ -26,6 +26,19 @@
     cursor: pointer
 }
 
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.icon svg {
+    font-size: 3rem;
+}
+
 
 .cardarea {
     display: flex;

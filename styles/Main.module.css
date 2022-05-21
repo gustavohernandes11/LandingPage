@@ -1,23 +1,31 @@
 .container {
   padding: 0 2rem;
 }
+
 .header {
-  padding: 20px;
+  z-index: 3;
+  padding: 5px;
   flex: 1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: fixed;
+  top: 5px;
+  right: 20px;
+  background-color: rgb(230, 230, 230);
 }
+
 .header a {
   text-decoration: none;
   font-style: none;
-  color: rgb(34, 87, 167);
-  margin: 0px 5px;
+  color: rgb(36, 18, 116);
+  margin: 0px 10px;
   font-weight: 600;
 }
+
 .header a:hover {
   color: rgb(36, 36, 36);
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .main {
@@ -49,10 +57,10 @@
   border-radius: 50px;
   width: 60px;
   height: 60px;
-  padding: 10px;
-  font-weight: 600 ;
-  border: 1px solid rgb(38, 38, 126);
+  font-weight: 600;
+  border: none;
 }
+
 .footer button:hover {
   cursor: pointer;
 }
@@ -64,6 +72,18 @@
   flex-grow: 1;
 }
 
+.footer nav {
+  color: rgb(35, 35, 92)
+}
+
+.footer svg {
+  margin: 5px;
+  font-size: 2rem;
+}
+
+.footer svg:hover {
+  cursor: pointer
+}
 
 
 .code {
