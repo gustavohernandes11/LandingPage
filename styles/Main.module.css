@@ -1,11 +1,18 @@
 .container {
   padding: 0 2rem;
 }
+.title {
+  margin-bottom: 0px;
+  margin-top: 3rem;
+}
+.hr {
+  width: 50px;
+  height: 5px;
 
+}
 .header {
   z-index: 3;
   padding: 5px;
-  flex: 1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -13,6 +20,22 @@
   top: 5px;
   right: 20px;
   background-color: rgb(230, 230, 230);
+}
+@media only screen and (max-width: 700px) {
+  .header {
+    flex-grow: 1;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .header a:hover {
+    text-decoration: none;
+    
+  }
 }
 
 .header a {
@@ -70,15 +93,18 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  text-decoration: none;
 }
 
 .footer nav {
-  color: rgb(35, 35, 92)
+  color: #4069ab;
 }
 
 .footer svg {
   margin: 5px;
   font-size: 2rem;
+  color: #4069ab;
+
 }
 
 .footer svg:hover {

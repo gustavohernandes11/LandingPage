@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 0px;
+
 }
+
+
 
 .servicecontainer {
     display: flex;
@@ -14,6 +16,7 @@
     justify-content: space-around;
 
 }
+
 .iconrating {
     display: flex;
     justify-content: center;
@@ -23,6 +26,7 @@
     border: 1px solid rgb(212, 212, 212);
     border-radius: 50px;
 }
+
 .iconrating svg {
     font-size: 3rem;
 }
@@ -31,30 +35,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
-    width: 90px;
-    border: 2px solid #394170;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #4069ab;
     border-radius: 50px;
 }
+
 .iconservice svg {
-    font-size: 2rem;
-    color: #394170;
+    font-size: 1.6rem;
+    color: #4069ab;
 }
 
 .servicecard {
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
-
-    flex-basis: 32%;
-    background-color: rgb(221, 221, 221);
+    background-color: #f1f1f1;
+    color: var(--main-blue-color);
+    flex-basis: 29%;
     display: flex;
     align-items: center;
-    margin: 5px;
-    padding: 5px;
-    color: var(--main-blue-color);
+    padding-right: 30px;
 }
 
 .servicecard p {
+    color: #4069ab;
     margin-left: 30px;
     font-weight: 700;
 }
@@ -66,10 +70,10 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(47, 47, 116);
-    padding: 5rem 0px;
-
+    background-color: #4069ab;
+    padding: 5rem;
 }
+
 
 .ratingcard {
     color: white;
@@ -81,4 +85,16 @@
 .ratingcard h2 {
     font-size: 3rem;
     margin: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .ratingcard {
+        margin: 20px;
+    }
+
+    .ratingcontainer {
+        flex-direction: column;
+    }
+
+
 }

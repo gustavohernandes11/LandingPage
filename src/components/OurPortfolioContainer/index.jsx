@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import styles from '../../../styles/OurPortfolioContainer.module.css'
 import { ImageList, ImageListItem } from '@mui/material'
+import Title from '../Title'
+
 
 import MaqueteImage from '../../assets/imgs/maquete.webp'
 import MaqueteApresentaçãoImage from '../../assets/imgs/maquete-de-apresentacao.webp'
@@ -13,8 +15,10 @@ import ConjuntoImage from '../../assets/imgs/conjunto.webp'
 export default function OurPortfolioContainer() {
     return (
         <div id="ourportfolio" className={styles.container}>
-            <h1>Our Portfolio</h1>
-            <p>Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted</p>
+            <Title>Our Portfolio</Title>
+            <p>
+                Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted
+            </p>
             <ImageList variant="quilted" cols={2} gap={8} >
                 <ImageListItem key={MaqueteApresentaçãoImage}>
                     <Image src={MaqueteApresentaçãoImage} alt="imagem" />

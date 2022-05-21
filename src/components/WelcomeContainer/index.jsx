@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from '../../../styles/WelcomeContainer.module.css'
 import Card from './Card'
+import Title from '../Title'
 
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CoPresentIcon from '@mui/icons-material/CoPresent';
@@ -16,18 +17,20 @@ export default function WelcomeContainer() {
 
     return (
         <div id="aboutus" className={styles.container}>
-            <h1>Welcome To Our Website</h1>
-            <p>Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted</p>
+            <Title>Welcome To Our Website</Title>
+            <div className={styles.textcontainer}>
+                <p>Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted</p>
+            </div>
             <div className={styles.textcontainer}>
                 {isReadModeOpen ? (
                     <>
                         <p>Lorem ipsum sit ametm contanted Lorem ipsum dooor sit ametm contanted. Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsumLorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum
-                        Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsumLorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum</p>
+                            Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsumLorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum</p>
                         <p>Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsumLorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum
                             Lorem ipsum dooed</p>
-                           
+
                     </>
-                   
+
                 ) : ''}
             </div>
             <button onClick={toggleReadMore}>{isReadModeOpen ? 'Close' : 'Read More'}</button>
@@ -40,7 +43,7 @@ export default function WelcomeContainer() {
                 <Card icon={<CoPresentIcon />} subtitle="Our Mission"
                     content="Lorem ipsum dooor sit ametm contanted
                     Lorem ipsum dooor sit ametm contanted
-                    Lorem ipsum dooor sit ametm contanted" color='#242424'
+                    Lorem ipsum dooor sit ametm contanted" color='#222222'
                 />
                 <Card icon={<VisibilityIcon />} subtitle="Our Vision"
                     content="Lorem ipsum dooor sit ametm contanted

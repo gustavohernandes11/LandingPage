@@ -7,7 +7,7 @@ export default function SliderContainer(){
             <Slider>
             <h1>Game Development</h1>
             <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-            <button >GET STARTED</button>
+            <a href="#aboutus"><button >GET STARTED</button></a>
 
             </Slider>
         </div>

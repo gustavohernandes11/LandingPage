@@ -2,26 +2,43 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 0px;
 }
+
 .textcontainer {
-    margin: 0px 60px;
-    text-align:justify;
+    margin: 0px 30px;
+    text-align: justify;
     display: flex;
     flex-direction: row;
 }
-.textcontainer p{
-    margin: 20px;
-    width: 50%;
+
+@media only screen and (max-width: 600px) {
+    .textcontainer {
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textcontainer p {
+        padding: 1rem;
+        width: 100%;
+    }
+
 }
+
+.textcontainer p {
+    padding: 1rem;
+    flex: 1;
+}
+
 .container button {
     color: rgb(42, 42, 110);
     background-color: transparent;
     border-radius: 20px;
     padding: 10px;
-    font-weight: 600 ;
+    font-weight: 600;
     border: 2px solid rgb(38, 38, 126);
 }
+
 .container button:hover {
     cursor: pointer
 }
@@ -35,6 +52,7 @@
     border-radius: 50px;
     margin-bottom: 10px;
 }
+
 .icon svg {
     font-size: 3rem;
 }
@@ -48,6 +66,14 @@
 
 }
 
+@media only screen and (max-width: 700px) {
+    .cardarea {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -56,7 +82,7 @@
     padding: 20px;
     min-height: 340px;
     flex-grow: 1;
-    background-color: rgb(54, 54, 133);
+    background-color: #4069ab;
     color: white;
 }
 
