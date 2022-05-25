@@ -1,3 +1,6 @@
 # Template de uma LandingPage
-Criado com Next.js e MaterialUi. 
-![landingPagePrint](https://user-images.githubusercontent.com/66632840/169626928-a1ae7938-d7cb-4eef-80d4-5d524cffd9e0.png)
+Criado com Next.js e MaterialUi.
+Possui responsividade.
+<hr/>
+
+![landingPagePrint](https://user-images.githubusercontent.com/66632840/169670646-b4008dc0-aeff-4334-b1df-d865eb4b36fa.png)
