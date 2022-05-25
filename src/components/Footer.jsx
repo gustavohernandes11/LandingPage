@@ -20,7 +20,7 @@ export default function Footer() {
             </nav>
             <Tooltip title="Go top!" arrow placement="top">
                 <IconButton>
-                    <a href="#home"><ArrowCircleUpIcon /></a>
+                    <a href="#header"><ArrowCircleUpIcon /></a>
                 </IconButton>
             </Tooltip>
         </div>
