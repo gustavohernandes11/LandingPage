@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from '../../styles/Main.module.css'
+import styles from '../../../styles/Header.module.css'
 
 export default function Header(){
     return (
         <div id="header" className={styles.header}>
-        <b>Template Title</b>
+        <strong>Template Title</strong>
         <nav >
             <a href="#home">Home</a>
             <a href="#aboutus">About us</a>

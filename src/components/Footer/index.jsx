@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/Main.module.css'
+import styles from '../../../styles/Footer.module.css'
 import { Tooltip, IconButton } from '@mui/material'
 
 import FacebookIcon from '@mui/icons-material/Facebook';

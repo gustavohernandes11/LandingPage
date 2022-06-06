@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Main.module.css";
 import Header from '../src/components/Header'
 import SliderContainer from '../src/components/SliderContainer/index'
 import WelcomeContainer from '../src/components/WelcomeContainer/index'

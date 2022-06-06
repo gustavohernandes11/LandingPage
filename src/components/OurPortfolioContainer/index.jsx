@@ -19,7 +19,7 @@ export default function OurPortfolioContainer() {
             <p>
                 Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted Lorem ipsum dooor sit ametm contanted
             </p>
-            <ImageList variant="quilted" cols={2} gap={8} >
+            <ImageList variant="masonry" >
                 <ImageListItem key={MaqueteApresentaçãoImage}>
                     <Image src={MaqueteApresentaçãoImage} alt="imagem" />
                 </ImageListItem>
